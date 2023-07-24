@@ -1,0 +1,158 @@
+/* MOBILE */
+@media(max-width:952px){
+    
+    .container{
+        flex-flow: column;
+    }
+    
+    header>img{
+        position: unset;
+    }
+    
+    header>nav>ul>li{
+        display: block;
+        text-align: center;
+    }
+    .banner{
+        background: url(../images/mobile.jpg) no-repeat center;
+        align-items: center;
+        font-size: 50px;
+        height: 160px;
+        padding-bottom: 50px;
+    }
+    
+    .banner>img{
+        height: 80px;
+    }
+
+   /*  BANNER odd */
+    .bannerOdd{
+        flex-direction: column-reverse;
+    }
+    .bannerOdd>div{
+        text-align: center;
+        width: 70%;
+        margin-left: 0px;
+    }
+    .bannerOdd>div>p{
+        text-align: center;
+    }
+    .bannerOdd>img{
+        width: 60%;
+    }
+    .bannerOdd>div>p{
+        font-size: 20px;
+    }
+    .bannerOdd>div>h2{
+        font-size: 25px;
+    }
+
+    /*  BANNER even */
+
+    .bannerEven>div{
+        text-align: center;
+        width: 70%;
+        margin-right: 0px;
+    }
+    .bannerEven>div>p{
+        text-align: center;
+    }
+    .bannerEven>img{
+        width: 50%;
+    }
+    .bannerEven>div>p{
+        font-size: 20px;
+    }
+    .bannerEven>div>h2{
+        font-size: 25px;
+    }
+
+    /* EMAIL OFFERS */
+    
+    .emailOffers{
+        padding: 20px 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .emailOffers>input{
+        margin: 20px 0px;
+        width: 80%;
+    }
+    
+    .footer-bottom>p{
+        font-size: small;
+    }
+    footer>.footer-content>.footer-section>p{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    
+}
+
+
+
+
+
+/* TABLET */
+@media(min-width: 953px) and (max-width: 1200px){
+    .container{
+        flex-flow: column;
+    }
+    header>img{
+        position: unset;
+    }
+    header>nav>ul>li{
+        display: inline-block;
+        text-align: center;
+    }
+
+    /*  BANNER odd */
+    .bannerOdd{
+        flex-direction: column-reverse;
+        
+    }
+    .bannerOdd>div{
+        text-align: center;
+        margin-left: 0px;
+        width: 70%;
+    }
+    .bannerOdd>img{
+        width: 50%;
+    }
+    .bannerOdd>div>p{
+        text-align: center;
+    }
+    .bannerOdd>div>h2{
+        font-size: 30px;
+    }
+
+    /*  BANNER even */
+
+    .bannerEven>div{
+        text-align: center;
+        width: 70%;
+        margin-right: 0px;
+    }
+
+    .bannerEven>img{
+        width: 30%;
+    }
+    .bannerEven>div>p{
+        text-align: center;
+    }
+    .bannerEven>div>h2{
+        font-size: 30px;
+    }
+
+    /* EMAIL OFFERS */
+    
+    .emailOffers>input{
+        margin: 20px 0px;
+        width: 50%;
+    }
+   
+
+   
+}
